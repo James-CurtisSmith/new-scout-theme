@@ -45,8 +45,6 @@ const MY_FIELDS = [
   'menu_order' => 0
 ];
 
-include_once( dirname(__FILE__).'/support/base-theme-class.php' );
-
 $theme = (new BaseThemeClass( MY_DEFN ))
        ->define_acf_elements( MY_FIELDS )
        ->hide_acf_admin()
