@@ -1,0 +1,9 @@
+{
+  "name": "Shelfords and Stapleford Scout Group, Cambridgeshire",
+  "short_name": "S&S Scouts",
+  "description": "Skills for Life for young people aged 6-14 in Great Shelford, Little Shelford and Stapleford, Cambridgeshire.",
+  "icons": [{
+    "src": "/wp-content/themes/newscout/gfx/favicon-192x192.png",
+    "sizes": "192x192"
+  }]
+}

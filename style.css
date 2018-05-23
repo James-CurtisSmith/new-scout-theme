@@ -1,0 +1,167 @@
+/*
+Theme Name: Scout Group - Rebrand 2018
+Theme URI: http://shelfordsanstaplefordscouts.org.uk/theme-2018
+Author: James Smith
+Author URI: https://baggy.me.uk/
+Description: This theme is a minimalist theme to set up a Scout Group advert site within the new branding. A limited number of pages without blog functionality
+Version: 1.0
+License: GNU Lesser General Public License v3.0 or lter
+License URI: https://www.gnu.org/licenses/lgpl.html
+Tags: scouts, scout group, purple, green, one-column, responsive, minimalist, no-javascript, website generator, no blog, no-javascript
+Text Domain: newscout
+
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+ @font-face {
+  font-family: 'logofont';
+  src: url('/wp-content/themes/newscout/fonts/logofont.eot');
+  src: url('/wp-content/themes/newscout/fonts/logofont.eot#iefix') format('embedded-opentype'),
+       url('/wp-content/themes/newscout/fonts/logofont.woff2') format('woff2'),
+       url('/wp-content/themes/newscout/fonts/logofont.woff') format('woff'),
+       url('/wp-content/themes/newscout/fonts/logofont.ttf') format('truetype'),
+       url('/wp-content/themes/newscout/fonts/logofont.svg#logofont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Main content */
+
+main, section { clear: both }
+main, header, footer, section { margin: 0 auto; max-width: 1400px; padding: 0; position: relative }
+.email, .intro  { font-size: 16pt }
+main, section { font-size: 14pt }
+
+h2, h3 { color: #7413dc }
+p, ul, ol, h2, h3, h4 { margin: 1em auto 0.5em auto; max-width: 1000px; padding: 0 10px; box-sizing: border-box }
+ol, ul            { padding-left: 60px; box-sizing: border-box }
+
+h2                           { font-size: 20pt }
+h3                           { font-size: 18pt }
+.email, .intro               { font-size: 16pt }
+.email a:before              { font-size: 20pt }
+footer, main, section, h4    { font-size: 14pt }
+
+/* some general reset stuff
+   basically colour, font etc, alongside reducing page borders!
+ */
+body              { font-family: "Nunito Sans"; margin: 0; padding: 0; font-size: 14pt; background-color: #fff; color: #000 }
+a                 { text-decoration: none }
+a:hover           { text-decoration: underline }
+a:before:hover    { text-decoration: none }
+
+/* Header and navigation */
+/* Logo */
+header { background-color: #7413dc; height:140px; color: #fff; padding: 0 }
+header a  { color: #fff }
+header a:hover { text-decoration: none }
+h1 { font-family: logofont; font-weight: normal }
+
+h1 { height: 140px; width: 300px; font-size: 120px; float: left; margin: 0; padding:0 }
+/* Tag line at top of page */
+nav p, nav ul { margin: 0 0 0 300px; font-size: 20px; max-width: none }
+nav p         { padding: 0 20px; height: 40px; line-height: 40px; text-align: right; font-style: italic }
+/* Navigation links */
+nav ul        { list-style: none; padding: 0; position: relative }
+nav ul li     { width: 25%; float: left; height: 50px; line-height: 50px; background-color: #00a794; text-align: center }
+nav a { display: block; margin: 2px 10px }
+#nb, #nc { font-size: 24px; font-family: logofont }
+#ns      { font-size: 16px; font-family: logofont }
+#ne      { font-size: 14px; font-family: logofont }
+#ne ~ li { font-weight: bold }
+@media screen and (max-width: 900px) {
+  header { height:120px }
+  h1 { font-size: 100px; height: 120px; width: 220px }
+  nav p, nav ul { margin-left: 220px }
+  nav ul li { height: 40px; line-height: 40px; }
+  nav ul   { font-size: 18px }
+  #nb, #nc { font-size: 20px }
+  #ne { font-size: 12px }
+}
+
+
+/* Hero panel... */
+.hero    { width: 100%; padding-top: 33.3333%; position: relative; background-size: cover }
+.hero h2 { position: absolute; bottom: 0; right: 0; text-align: right;
+           padding: 0.5em 1em; background-color: #fff; margin: 0 1em 0 0; color: #7413dc;
+           font-weight: bold; }
+
+/* email link at top of page */
+
+.email        { text-align: right }
+.email a      { padding-bottom: 0.5em; white-space: nowrap }
+.email a:before { content: '1'; font-family: logofont; padding-right: 0.5em }
+
+/* Footer panel */
+footer                     { color: #fff; background-color: #7413dc; padding: 0; margin: 2em auto 0 }
+footer ul                  { list-style: none; padding: 5px; margin: 0 }
+footer li                  { margin: 0 ; padding: 5px; font-weight: bold }
+footer ul:first-of-type    { float: right }
+footer ul:first-of-type li { text-align: right }
+footer a                   { color: #fff; white-space: nowrap }
+
+li > ul { margin-top: 0.25em }
+@media screen and (max-width: 800px) {
+  .hero h2       { position:relative; margin: 0; text-align: left; border-bottom: 1px solid #7413dc }
+  .email         { font-size: 14pt }
+  .email a:before  { font-size: 16pt }
+}
+
+@media screen and (max-width: 600px) {
+  h3             { font-size: 16pt }
+  h4             { font-size: 12pt }
+  .intro         { font-size: 14pt }
+  main, section  { font-size: 12pt }
+}
+
+@media screen and (max-width: 500px) {
+  .email         { font-size: 12pt }
+  .email a:before  { font-size: 14pt }
+  footer         { font-size: 12pt }
+  footer ul:first-of-type { float: none }
+}
+
+/** This is the nav menu */
+input { display: none }
+label { display: none }
+
+#facebook-share:before { content: 'F'; margin-left: 1.5em }
+#twitter-share:before   { content: 'T'; margin-left: 1.5em }
+#facebook-follow:before { font-family: logofont; content: 'F'; padding-right: 0.5em }
+
+
+@media screen and (max-width: 800px) {
+  /* This is where we need to go hamburger */
+  /* Need a hamburger checkbox */
+  header ul { display:none }
+  nav label { display: block; position: absolute; right: 0 ; top: 0;
+    height:40px; width: 40px; font-weight: normal }
+  nav label:before { content:'='; font-family: logofont; font-size: 30px; line-height: 40px }
+  nav p { position: absolute; top: 40px; height: 80px; text-align: right; right: 0 }
+
+  .social { display: block; padding-top: 0.5em }
+  #facebook-share:before { content: 'F'; margin-left: 0.75em }
+  #twitter-share:before   { content: 'T'; margin-left: 0 }
+  #ham:checked ~ ul { display: block; right: 0; position: absolute; top: 40px; margin: 0; width: 340px; clear: both; z-index: 10; background-color: #00a794 }
+  #ham:checked ~ ul li { width: 50%; float: left; }
+  #ham:checked ~ label #overlay { position: fixed; width: 100%; z-index:5; height: 100vh; top: 0; left: 0; opacity: 0.1; background-color: #000 }
+  ol, ul { padding-left: 50px }
+}
+
+@media screen and (max-width: 339px) {
+  #ham:checked ~ ul { width: 170px }
+  #ham:checked ~ ul li { width: 100% }
+}
+@media screen and (max-width: 500px) {
+  nav p { display: none }
+  ol, ul { padding-left: 40px }
+}
+
+@media print {
+  footer { color: #7413dc; background-color: #fff; border-top: 1px solid #7413dc; font-size: 12pt }
+  footer a { color: #7413dc }
+  #twitter-share, #facebook-share, footer ul:first-of-type, nav li { display: none }
+  #nb, #nc, #ns { display: block; width: 33.3333333333333% }
+  header { height:120px}
+  h1 { font-size: 100px; height: 120px; width: 220px }
+  ul { margin-left: 220px; top: 20px; height: 60px }
+  nav ul li { height: 60px; line-height: 60px; }
+}

@@ -1,0 +1,35 @@
+
+.icon-mail-alt:before { content: '\31'; } /* '1' */
+.icon-file-pdf:before { content: '\32'; } /* '2' */
+.icon-file-word:before { content: '\33'; } /* '3' */
+.icon-calendar:before { content: '\34'; } /* '4' */
+.icon-doc:before { content: '\35'; } /* '5' */
+.icon-left-open:before { content: '\3c'; } /* '&lt;' */
+.icon-menu:before { content: '\3d'; } /* '=' */
+.icon-right-open:before { content: '\3e'; } /* '&gt;' */
+.icon-help-circled:before { content: '\3f'; } /* '?' */
+.icon-beavers:before { content: '\42'; } /* 'B' */
+.icon-cubs:before { content: '\43'; } /* 'C' */
+.icon-cambridge-linear:before { content: '\44'; } /* 'D' */
+.icon-explorers:before { content: '\45'; } /* 'E' */
+.icon-search:before { content: '\46'; } /* 'F' */
+.icon-sands-linear:before { content: '\47'; } /* 'G' */
+.icon-logo:before { content: '\4c'; } /* 'L' */
+.icon-network:before { content: '\4e'; } /* 'N' */
+.icon-osm:before { content: '\4f'; } /* 'O' */
+.icon-gplus-squared:before { content: '\51'; } /* 'Q' */
+.icon-scouts:before { content: '\53'; } /* 'S' */
+.icon-twitter-squared:before { content: '\54'; } /* 'T' */
+.icon-down-open:before { content: '\56'; } /* 'V' */
+.icon-wordpress:before { content: '\57'; } /* 'W' */
+.icon-cambridgshire-linear:before { content: '\58'; } /* 'X' */
+.icon-up-open:before { content: '\5e'; } /* '^' */
+.icon-cambridge-stack:before { content: '\64'; } /* 'd' */
+.icon-sands-stack:before { content: '\67'; } /* 'g' */
+.icon-logo-linear:before { content: '\68'; } /* 'h' */
+.icon-info-circled:before { content: '\69'; } /* 'i' */
+.icon-linux:before { content: '\6c'; } /* 'l' */
+.icon-location:before { content: '\6d'; } /* 'm' */
+.icon-logo-stack:before { content: '\76'; } /* 'v' */
+.icon-cambridgshire-stack:before { content: '\78'; } /* 'x' */
+.icon-facebook-squared:before { content: '\e800'; } /* '' */
